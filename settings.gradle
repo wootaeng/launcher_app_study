@@ -1,0 +1,2 @@
+rootProject.name = "Powerstore_w"
+include ':app'
