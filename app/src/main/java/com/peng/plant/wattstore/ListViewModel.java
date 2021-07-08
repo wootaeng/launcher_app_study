@@ -1,12 +1,12 @@
-package com.peng.plant.wattstore.viewModel;
+package com.peng.plant.wattstore;
 
 import androidx.databinding.ObservableArrayList;
 
 public class ListViewModel {
     private int count = 0;
-    private ObservableArrayList<ListViewModel> listItemViewModels;
+    private ObservableArrayList<ListItemViewModel> listItemViewModels;
 
-    public ListViewModel(){
+    public ListViewModel() {
         listItemViewModels = new ObservableArrayList<>();
     }
 

@@ -1,4 +1,4 @@
-package com.peng.plant.wattstore.viewModel;
+package com.peng.plant.wattstore;
 
 public class ListItemViewModel {
     private String title;
