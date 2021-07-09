@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.peng.plant.wattstore.databinding.ActivityMainBinding;
+import com.peng.plant.wattstore.viewmodel.ListViewModel;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         //DataBinding 사용
         ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         binding.setViewModel(new ListViewModel());
-        Log.d(TAG,"binding set");
+
     }
 
 

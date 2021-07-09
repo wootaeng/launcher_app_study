@@ -7,7 +7,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.peng.plant.wattstore.ListViewModel" />
+            type="com.peng.plant.wattstore.viewmodel.ListViewModel" />
 
     </data>
 
@@ -32,9 +32,11 @@
             android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+
+            android:layout_marginStart="28dp"
             app:layout_constraintStart_toEndOf="@+id/imageView"
-            app:srcCompat="@drawable/login_bg" />
+            app:srcCompat="@drawable/login_bg"
+            tools:layout_editor_absoluteY="35dp" />
 
         <LinearLayout
             android:id="@+id/linearLayout"
