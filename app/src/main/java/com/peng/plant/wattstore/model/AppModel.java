@@ -1,11 +1,11 @@
 package com.peng.plant.wattstore.model;
 
-public class AppData {
+public class AppModel {
 
     private String appName;
     private String appIcon;
 
-    public AppData(String appName, String appIcon) {
+    public AppModel(String appName, String appIcon) {
         this.appName = appName;
         this.appIcon = appIcon;
     }
@@ -14,11 +14,15 @@ public class AppData {
         return appName;
     }
 
-
+    public void setAppName(String appName) {
+        this.appName = appName;
+    }
 
     public String getAppIcon() {
         return appIcon;
     }
 
-
+    public void setAppIcon(String appIcon) {
+        this.appIcon = appIcon;
+    }
 }

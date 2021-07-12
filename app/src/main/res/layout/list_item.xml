@@ -3,38 +3,30 @@
     <data>
         <variable
             name="viewModel"
-            type="com.peng.plant.wattstore.viewmodel.ListViewModel" />
+            type="com.peng.plant.wattstore.viewmodel.AppListViewModel" />
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
         android:layout_width="190px"
-        android:layout_height="182px"
-        android:contentDescription="hf_no_number">
+        android:layout_height="182px">
 
 
         <ImageView
             android:id="@+id/app_icon"
             android:layout_width="190px"
-            android:layout_height="182px"
+            android:layout_height="182px"/>
 
-            android:layout_centerInParent="true"/>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="23sp"/>
 
-            <TextView
-                android:id="@+id/app_name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@{viewModel."
-                android:gravity="center"
-                android:layout_marginBottom="25px"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
-                android:textSize="23sp"/>
 
-        </LinearLayout>
 
 
 
